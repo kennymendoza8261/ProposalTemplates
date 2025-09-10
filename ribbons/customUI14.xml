@@ -1,0 +1,12 @@
+<customUI xmlns="http://schemas.microsoft.com/office/2009/07/customui" onLoad="OnRibbonLoad">
+  <ribbon>
+    <tabs>
+      <tab id="tabProposals" label="Proposals">
+        <group id="grpActions" label="Actions">
+          <button id="btnGenerate" size="large" label="Generate Proposal" imageMso="FileNewDefault" onAction="OnGenerate_Click"/>
+          <button id="btnFinalize" size="large" label="Finalize to DOCX" imageMso="FileSaveAsWordDocx" onAction="OnFinalize_Click"/>
+        </group>
+      </tab>
+    </tabs>
+  </ribbon>
+</customUI>
