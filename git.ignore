@@ -1,0 +1,6 @@
+#ignore all office files
+*.dotm
+*.docm
+*.xlsm
+*.docx
+*.xlsx
